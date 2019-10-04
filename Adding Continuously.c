@@ -7,7 +7,8 @@ int main()
     int a, b, c;
     char ch;
 
-    while (1) {   //while loop
+    while (1) 
+    {   //while loop
       printf("\nInput two integers: ");
       scanf("%d%d", &a, &b);
       getchar(); //inputting one character to th screen
@@ -23,7 +24,7 @@ int main()
          continue;
       else
           break;
-          }
+      }
 
    return 0;
 }
